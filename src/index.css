@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.biggi {
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box {
+    margin-top: 213px;
+    padding: 60px 80px;
+    width: 766px;
+    height: 557px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 213px;
+    margin: 213px auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about, .time {
+    font-family: Itim;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    span {
+        font-family: Itim;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: yellow;
+    }
+}
+
+.number {
+    font-family: Inria Serif;
+    font-weight: 700;
+    font-size: 150px;
+    text-align: center;
+}
+
+.random {
+    font-family: Itim;
+    font-weight: 400;
+    font-size: 32px;
+}
+
